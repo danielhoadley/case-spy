@@ -1,0 +1,31 @@
+extends layout
+
+block content
+
+    body
+        h1 CaseSpy
+       
+
+        h4 The Weekly Law Reports
+        ul
+            
+            each val in matchesTwo
+            
+                li= val
+                
+        h4 The Industrial Cases Reports
+        ul
+            
+            each val in matchesThree
+            
+                li= val
+                
+        h4 The Public & Third Sector Law Reports
+        ul
+            
+            each val in matchesFour
+            
+                li= val
+                
+       
+        
